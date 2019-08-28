@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/subset-OpenSans.eot');
+    src: url('fonts/subset-OpenSans.eot?#iefix') format('embedded-opentype'),
+        url('fonts/subset-OpenSans.woff2') format('woff2'),
+        url('fonts/subset-OpenSans.woff') format('woff'),
+        url('fonts/subset-OpenSans.ttf') format('truetype'),
+        url('fonts/subset-OpenSans.svg#OpenSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url('image/im.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    font-weight: normal;
+}
+.title1 {
+    text-align: center;
+    margin-top: 124px;
+    margin-bottom: 135px;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58.99px;
+}
