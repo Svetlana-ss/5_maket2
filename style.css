@@ -1,27 +1,99 @@
 @font-face {
     font-family: 'Open Sans';
-    src: url('fonts/subset-OpenSans.eot');
-    src: url('fonts/subset-OpenSans.eot?#iefix') format('embedded-opentype'),
-        url('fonts/subset-OpenSans.woff2') format('woff2'),
-        url('fonts/subset-OpenSans.woff') format('woff'),
-        url('fonts/subset-OpenSans.ttf') format('truetype'),
-        url('fonts/subset-OpenSans.svg#OpenSans') format('svg');
+    src: url('fonts/regular/subset-OpenSans-Regular.eot');
+    src: url('fonts/regular/subset-OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/regular/subset-OpenSans-Regular.woff2') format('woff2'),
+        url('fonts/regular/subset-OpenSans-Regular.woff') format('woff'),
+        url('fonts/regular/subset-OpenSans-Regular.ttf') format('truetype'),
+        url('fonts/regular/subset-OpenSans-Regular.svg#OpenSans-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'Open Sans';
+    src: url('fonts/bold/subset-OpenSans-Bold.eot');
+    src: url('fonts/bold/subset-OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/bold/subset-OpenSans-Bold.woff2') format('woff2'),
+        url('fonts/bold/subset-OpenSans-Bold.woff') format('woff'),
+        url('fonts/bold/subset-OpenSans-Bold.ttf') format('truetype'),
+        url('fonts/bold/subset-OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url('image/im.png');
-    background-position: top;
-    background-repeat: no-repeat;
     font-weight: normal;
+    font-style: normal;
+    margin: 0%;
 }
 .title1 {
     text-align: center;
-    margin-top: 124px;
-    margin-bottom: 135px;
     color: #ffffff;
     font-size: 48px;
-    font-weight: 400;
     line-height: 58.99px;
+    background-image: url('image/im.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 0px 30px 0px;
+    padding-top: 124px;
+    padding-bottom: 135px;
+    font-weight: normal;
+}
+.title2 {
+    color: #333333;
+    font-size: 30px;
+    line-height: 58.99px;
+    margin-left: 48px;
+    margin-top: 30px;
+    font-weight: normal;
+}
+.text {
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 48px;
+}
+.bold {
+    font-weight: bold;
+    font-style: normal;
+}
+.link.l1 {
+    line-height: 24px;
+}
+.link {
+    color: #4183c4;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 58.99px;
+    margin-right: 23px;
+}
+.title3 {
+    color: #325d72;
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 48px;
+    padding-top: 73px;
+    font-weight: normal;
+}
+.line {
+    border-bottom: #dddddd;
+    height: 1px;
+    margin-left: 48px;
+    margin-right: 51px;
+}
+.nav {
+    color: #4183c4;
+    font-size: 14px;
+    line-height: 58.99px;
+    float: right;
+}
+.footer {
+    padding: 30px 50px 80px 50px;
+    margin-top: 69px;
+    color: #bebebe;
+    font-size: 14px;
+    line-height: 58.99px;
+    border: 1px solid #dddddd;
+    background-color: #f5f5f5;
 }
